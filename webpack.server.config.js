@@ -19,7 +19,4 @@ module.exports = {
     ]
   },
   externals: [webpackNodeExternals()]
-  // devServer: {
-  //   contentBase: path.join(__dirname, 'dist')
-  // }
 }

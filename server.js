@@ -43,4 +43,4 @@ app.get('*', (req, res) => {
   res.send(html)
 })
 
-app.listen(PORT, () => console.log(`Servidor corriendo en el puerto ${PORT}...`))
+app.listen(PORT, () => console.log(`Servidor corriendo en http://localhost:${PORT}`))
