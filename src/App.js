@@ -22,7 +22,7 @@ export const App = () => {
       </ul>
 
       <Switch>
-        <Route exact path="/" render={() => <Home name="Peter" />} />
+        <Route exact path="/" render={() => <Home name="Esteve" />} />
         <Route path="/todos" component={Todos} />
         {/* <Route path="/posts" component={Posts} /> */}
         <Route path="/newposts" component={NewPosts} />
