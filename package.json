@@ -1,0 +1,29 @@
+{
+  "name": "react-server-side-rendering",
+  "version": "1.0.0",
+  "scripts": {
+    "build:server": "webpack --config webpack.server.config.js --mode=development -w",
+    "start:server": "nodemon dist/server.js",
+    "start": "npm-run-all --parallel build:server start:server"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@babel/preset-env": "7.8.4",
+    "@babel/preset-react": "7.8.3",
+    "babel-loader": "8.0.6",
+    "eslint": "6.8.0",
+    "eslint-plugin-react": "7.18.3",
+    "eslint-plugin-react-hooks": "2.4.0",
+    "npm-run-all": "4.1.5",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3",
+    "webpack-node-externals": "1.7.2"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-router-dom": "5.1.2"
+  }
+}
