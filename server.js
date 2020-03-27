@@ -9,7 +9,7 @@ const app = express()
 
 
 app.get('*', (req, res) => {
-  // console.log('req:', req.url)
+  console.log('req:', req.url)
 
   const context = {}
   const myApp = ReactDOMServer.renderToString(
